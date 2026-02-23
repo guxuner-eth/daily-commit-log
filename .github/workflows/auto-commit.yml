@@ -21,8 +21,8 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "guxuner-eth"
+          git config user.email "guxuner-eth@users.noreply.github.com"
           git add .
           git commit -m "daily commit $(date '+%Y-%m-%d')" || echo "No changes"
           git push
